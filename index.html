@@ -6,6 +6,7 @@
     <canvas id="myChart"></canvas>
 
     <script>
+    async function init() {
     const ctx = document.getElementById('myChart').getContext('2d');
     let labels = [];
     let data = [];
@@ -63,6 +64,8 @@
             },
         },
     })
+    }
+      init();
 
     </script>
   </body>
